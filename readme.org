@@ -1,4 +1,4 @@
-* Matrix Unwinding Function 
+* Matrix Unwinding Function
 
 * About
 
@@ -7,18 +7,18 @@ a square matrix  A.
 
 Other program files are
 
-- =test_uwnindm=: runs a series of unit tests for the =unwindm= function.
+- =test_uwnindm=: runs some simple tests for the =unwindm= function.
 - =unwind= computes the scalar unwinding number.
 
 * Usage
 
-=U = unwindm(A)= compute the matrix unwinding function =U= of the 
+=U = unwindm(A)= compute the matrix unwinding function =U= of the
 n-by-n matrix =A=.
 
 * Requirements
 
 The code was developed in MATLAB R2020b and works with versions
-back to at least R2017a. 
+back to at least R2017a.
 
 * References
 
