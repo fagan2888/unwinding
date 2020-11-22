@@ -1,0 +1,32 @@
+* Matrix Unwinding Function 
+
+* About
+
+=unwindm= is a MATLAB function that computes the matrix unwinding function of
+a square matrix  A.
+
+- =test_uwnindm=: runs a series of unit tests for the =unwindm= function.
+- =unwind= computes the scalar unwinding number.
+
+* Usage
+
+=U = unwindm(A)= compute the matrix unwinding function of the 
+n-by-n matrix A.
+
+* Requirements
+
+The code was developed in MATLAB R2020b and works with versions
+back to at least R2017a. 
+
+* Reference
+
+- Mary Aprahamian and Nicholas J. Higham, [[doi:10.1137/130920137][The
+  Matrix Unwinding Function, with an Application to Computing the Matrix
+  Exponential]], SIAM J. Matrix Anal. Appl. 35(1), 88--109, 2014.
+
+- Nicholas J. Higham, [[doi:https://nhigham.com/2014/03/24/making-sense-of-multivalued-matrix-functions/][Making Sense of Multivalued Matrix Functions with the
+  Matrix Unwinding Function]], 2014.
+
+* License
+
+See =license.txt= for licensing information.
