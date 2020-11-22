@@ -26,7 +26,7 @@ back to at least R2017a.
   with an Application to Computing the Matrix Exponential]], SIAM J. Matrix
   Anal. Appl. 35(1), 88--109, 2014.
 
-- Nicholas J. Higham, [[doi:https://nhigham.com/2014/03/24/making-sense-of-multivalued-matrix-functions/][Making Sense of Multivalued Matrix Functions with the
+- Nicholas J. Higham, [[https://nhigham.com/2014/03/24/making-sense-of-multivalued-matrix-functions/][Making Sense of Multivalued Matrix Functions with the
   Matrix Unwinding Function]], 2014.
 
 * License
