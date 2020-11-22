@@ -1,8 +1,11 @@
 function U = unwindm(A)
 %UNWINDM  Matrix unwinding function.
-%   UNWINDM(A) is the matrix unwinding function of the square matrix A.
+%   UNWINDM(A) is the matrix unwinding function of the square matrix A,
+%   defined as (A - logm(expm(A)))/(2*pi*i). It is computed via the Schur
+%   decomposition.
 
-%   Reference: M. Aprahamian and N. J. Higham.
+%   Reference:
+%   M. Aprahamian and N. J. Higham.
 %   The matrix unwinding function, with an application to computing the
 %   matrix exponential.  SIAM J. Matrix Anal. Appl., 35(1):88-109, 2014.
 
